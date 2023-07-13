@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cornsilk;
+}
