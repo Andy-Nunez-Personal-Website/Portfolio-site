@@ -14,17 +14,4 @@ html, body {
     align-items: center;
     justify-content: space-between;
     background-color: cornsilk;
-}
 
-.links a {
-    text-decoration: none;
-}
-
-.mission {
-    padding: 75px;
-}
-
-.quote {
-    font-family: cursive;
-    padding: 150px;
-}
