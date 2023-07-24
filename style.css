@@ -25,3 +25,7 @@ img {
 img {
     width: 200px;
 }
+
+a:hover {
+    background-color: gray;
+}
