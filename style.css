@@ -6,7 +6,7 @@ html, body {
     font-size: 1.1em;
     text-align: center;
     margin: 0;
-    padding: 0px;
+
 }
 
 .nav {
@@ -16,9 +16,8 @@ html, body {
     background-color: cornsilk;
 }
 
-
-img {
-    width: 200px;
+.info {
+    padding: 2.5vh;
 }
 
 
