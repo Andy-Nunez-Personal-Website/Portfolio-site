@@ -33,7 +33,7 @@ img {
 .picture {
     position: absolute;
     z-index: -1;
-    opacity: 0.2;
+    opacity: 0.3;
     top: -50px;
     right: 50px;
     left: 50px;
