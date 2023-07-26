@@ -6,8 +6,7 @@ html, body {
     font-size: 1.1em;
     text-align: center;
     margin: 0;
-    padding: 0;
-    display: flexbox;
+
 }
 
 .nav {
@@ -37,4 +36,16 @@ img {
     top: -50px;
     right: 50px;
     left: 800px;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.mission, .quote {
+    padding-top: 10vh;
 }
