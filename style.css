@@ -49,3 +49,7 @@ a:hover {
 .mission, .quote {
     padding-top: 10vh;
 }
+
+p {
+    font-style: oblique;
+}
