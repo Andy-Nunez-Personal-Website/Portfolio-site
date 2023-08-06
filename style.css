@@ -22,7 +22,7 @@ html, body {
 
 
 img {
-    width: 650px;
+    width: 250px;
 }
 
 .container {
@@ -36,6 +36,7 @@ img {
     top: -50px;
     right: 100px;
     left: 800px;
+
 }
 
 a:hover {
