@@ -22,7 +22,7 @@ html, body {
 
 
 img {
-    width: 650px;
+    width: 250px;
 }
 
 .container {
@@ -34,8 +34,10 @@ img {
     z-index: -1;
     opacity: 0.3;
     top: -50px;
+
     right: 250px;
     left: 700px;
+
 }
 
 a:hover {
