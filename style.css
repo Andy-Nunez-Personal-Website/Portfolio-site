@@ -1,42 +1,55 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-html, body {
-    font-size: 1.1em;
-    text-align: center;
-    margin: 0;
-
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
-.nav {
+h1 {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: cornsilk;
+    justify-content: space-around;
 }
 
-.info {
-    padding: 2.5vh;
-}
-
-
-img {
-    width: 250px;
-}
-
-a:hover {
-    background-color: gray;
-}
-
-.quote {
-    font-style: italic;
-}
-
-.mission, .quote {
-    padding-top: 10vh;
-}
-
-p {
-    font-style: oblique;
+.about-text h2 {
+    color: red;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
