@@ -2,6 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+
 }
 
 .header {
@@ -56,6 +83,7 @@ h1 {
     border-radius: 50%;
     border: 25px solid #fff;
     outline: 25px solid #031540;
+
 }
 
 .home-image img {
@@ -70,6 +98,32 @@ h1 {
     color: #fff;
     text-align: right;
 
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: red;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+=======
 }
 
 .home-content h1 {
@@ -89,3 +143,4 @@ h1 {
     margin-top: 20px;
 
 }
+
